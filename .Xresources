@@ -1,0 +1,110 @@
+! ------------------------------------------------------------------------------
+! All Color theme
+! ------------------------------------------------------------------------------
+
+! special
+xterm*foreground:   #DCDCDC
+xterm*background:   #2D2D2D
+xterm*cursorColor:  #DCDCDC
+
+! black
+xterm*color0:       #1d1f21
+xterm*color8:       #969896
+
+! red
+xterm*color1:       #cc342b
+xterm*color9:       #cc342b
+
+! green
+xterm*color2:       #198844
+xterm*color10:      #198844
+
+! yellow
+xterm*color3:       #fba922
+xterm*color11:      #fba922
+
+! blue
+xterm*color4:       #3971ed
+xterm*color12:      #3971ed
+
+! magenta
+xterm*color5:       #a36ac7
+xterm*color13:      #a36ac7
+
+! cyan
+xterm*color6:       #0f73fb
+xterm*color14:      #0f73fb
+
+! white
+xterm*color7:       #DCDCDC
+xterm*color15:      #DCDCDC
+
+! ------------------------------------------------------------------------------
+! XTerm Color theme
+! ------------------------------------------------------------------------------
+
+XTerm.termName: xterm-256color
+XTerm.vt100.locale: true
+! XTerm.vt100.faceName: xft:Droid Sans Mono:antialias=true:size=12
+XTerm.vt100.faceName: xft:UkrSans Regular:antialias=true:size=12
+XTerm.vt100.font: UkrSans Regular:size=12
+! XTerm.vt100.font: Droid Sans Mono:size=12
+
+XTerm*font: -misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+
+Xterm*BorderWidth: none
+! Небольшой отступ от краев окна для лучшего восприятия
+XTerm*internalBorder: 10
+xterm*BorderColor: #2D2D2D
+! xterm*BorderColor: #535353
+
+! отключаем жирный шрифт и вместо него делаем текст синим.
+!XTerm.vt100.colorBDMode: true
+!XTerm.vt100.colorBD: #2D2D2D
+! отключаем подчеркнутый текст и вместо него делаем его белым.
+!XTerm.vt100.colorULMode: true
+!XTerm.vt100.colorUL: #198844
+! аналогично использовать colorIT для курсива
+!XTerm*keepSelection:   true
+!XTerm*bellIsUrgent: true
+!XTerm*dynamicColors: on
+
+XTerm*cursorColor: darkgreen
+XTerm*jumpScroll: true
+XTerm*multiScroll: true
+XTerm*geometry: 400x200
+XTerm.vt100.bellIsUrgent: true
+XTerm*saveLines: 15000
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+!                 'background', 'border', 'separator'
+rofi.color-window: #2D2D2D, #2D2D2D, #2D2D2D
+rofi.color-normal: #2D2D2D, #d8dee9, #2D2D2D, #d8dee9, #2D2D2D
+rofi.color-active: #2D2D2D, #2D2D2D, #2D2D2D, #2D2D2D, #d8dee9
+rofi.color-urgent: #2D2D2D, #ec5f67, #2D2D2D, #ec5f67, #d8dee9
+
+!rofi.separator-style: solid
+!rofi.sidebar-mode:    true
+rofi.padding:         20
+rofi.bw:              1
+rofi.scrollbar-width: 0
+!rofi.line-margin:     0
+
+! SXIV COLORS
+!sxiv.font:                  kakwa kakwafont:size=8
+sxiv.win_bg_color:          #21211F
+sxiv.win_fs_color:          #2E2E2C
+sxiv.sel_color:             #2E2E2C
+sxiv.bar_bg_color:          #292927
+sxiv.bar_fg_color:          #B8B9B4
+sxiv.win_width:             460
+sxiv.win_height: 350
+
+!
+
+xterm*VT100.Translations: #override \
+                 Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
+                 Ctrl Shift <Key>C:    copy-selection(CLIPBOARD)
