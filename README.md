@@ -5,5 +5,5 @@
 ### Firefox
 
 ## TODO
-- add zsh config for git
-- add notification config
+- [ ] Аdd zsh config for git
+- [ ] Аdd notification config
