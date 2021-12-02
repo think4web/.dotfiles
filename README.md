@@ -1,5 +1,5 @@
 # dotfiles
-[![Created Badge](https://badges.pufler.dev/created/think4web/dotfiles?color=blue)](https://badges.pufler.dev)
+![Created Badge](https://badges.pufler.dev/created/think4web/dotfiles?color=blue)
 [![Updated Badge](https://badges.pufler.dev/updated/think4web/dotfiles?color=blue)](https://badges.pufler.dev)
 
 ### Firefox
