@@ -2,9 +2,11 @@
 ![Created Badge](https://badges.pufler.dev/created/think4web/dotfiles?color=blue)
 ![Updated Badge](https://badges.pufler.dev/updated/think4web/dotfiles?color=blue)
 ![Visits Badge](https://badges.pufler.dev/visits/think4web/dotfiles?color=blue)
+### rofi
 ### dmenu
 ### i3-gaps
-### ~~xterm~~ st
+### xterm 
+### st
 - zsh
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 ### Firefox
