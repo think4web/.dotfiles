@@ -9,6 +9,8 @@
 ### st
 - zsh
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+- vim
+- ncmpcpp
 ### Firefox
 
 #### Add-ons
