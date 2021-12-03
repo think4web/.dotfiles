@@ -5,6 +5,8 @@
 ### dmenu
 ### i3-gaps
 ### xterm
+- zsh
+- [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 ### Firefox
 
 #### Add-ons
