@@ -4,7 +4,7 @@
 ![Visits Badge](https://badges.pufler.dev/visits/think4web/dotfiles?color=blue)
 ### dmenu
 ### i3-gaps
-### xterm
+### ~~xterm~~ st
 - zsh
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 ### Firefox
