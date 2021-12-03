@@ -1,7 +1,6 @@
 # dotfiles
-![Created Badge](https://badges.pufler.dev/created/think4web/dotfiles?color=blue)
-![Updated Badge](https://badges.pufler.dev/updated/think4web/dotfiles?color=blue)
-![Visits Badge](https://badges.pufler.dev/visits/think4web/dotfiles?color=blue)
+![Last Commit](https://img.shields.io/github/last-commit/think4web/dotfiles?color=blue&style=flat-square)
+![Locense](https://img.shields.io/github/license/think4web/dotfiles?color=blue&style=flat-square)
 ### rofi
 ### dmenu
 ### i3-gaps
