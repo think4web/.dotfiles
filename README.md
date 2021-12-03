@@ -6,6 +6,12 @@
 ### xterm
 ### Firefox
 
+#### Add-ons
+- [Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
+- [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
+
+
+
 ## TODO
 - [ ] Аdd zsh config for git
 - [ ] Аdd notification config
