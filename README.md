@@ -24,3 +24,5 @@
 - [ ] Аdd notification config
 - [ ] Add dmenu config
 - [ ] Change xterm to st
+- [ ] Chenge rofi to dmenu
+- [ ] Chenge i3-gaps to dwm
