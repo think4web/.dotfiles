@@ -1,6 +1,6 @@
 # dotfiles
 ![Last Commit](https://img.shields.io/github/last-commit/think4web/dotfiles?color=blue&style=flat-square)
-![Locense](https://img.shields.io/github/license/think4web/dotfiles?color=blue&style=flat-square)
+![License](https://img.shields.io/github/license/think4web/dotfiles?color=blue&style=flat-square)
 ### rofi
 ### dmenu
 ### i3-gaps
