@@ -28,3 +28,4 @@
 - [ ] Chenge i3-gaps to dwm
 - [ ] Make a general colore theme for sites (Stylus)
 - [ ] Add a spell check to vim
+- [ ] Add a volume/brightness level indicator
