@@ -46,9 +46,11 @@
 XTerm.termName: xterm-256color
 XTerm.vt100.locale: true
 ! XTerm.vt100.faceName: xft:Droid Sans Mono:antialias=true:size=12
-XTerm.vt100.faceName: xft:UkrSans Regular:antialias=true:size=12
-XTerm.vt100.font: UkrSans Regular:size=12
-! XTerm.vt100.font: Droid Sans Mono:size=12
+!XTerm.vt100.faceName: xft:UkrSans Regular:antialias=true:size=12
+XTerm.vt100.faceName: xtf:MesloLGS NF Regular:antialias=true:size=12
+!XTerm.vt100.font: UkrSans Regular:size=12
+!XTerm.vt100.font: Droid Sans Mono:size=12
+XTerm.vt100.font: MesloLGS NF:size=12
 
 XTerm*font: -misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
 
