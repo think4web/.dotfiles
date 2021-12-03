@@ -19,3 +19,4 @@
 - [ ] Аdd zsh config for git
 - [ ] Аdd notification config
 - [ ] Add dmenu config
+- [ ] Change xterm to st
