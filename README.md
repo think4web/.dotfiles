@@ -5,7 +5,7 @@
 ### dmenu
 ### i3-gaps
 ### xterm 
-### st
+### kitty
 - zsh
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - vim
