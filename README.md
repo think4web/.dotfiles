@@ -20,7 +20,7 @@
 
 ## TODO
 - [ ] Аdd zsh config for git
-- [ ] Аdd notification config
+- [x] Аdd dunst notification
 - [ ] Add dmenu config
 - [x] Change xterm to kitty
 - [ ] Chenge rofi to dmenu
