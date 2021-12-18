@@ -19,6 +19,25 @@ runtime! debian.vim
 " options, so any other options should be set AFTER setting 'compatible'.
 "set compatible
 
+" setlocal spell spelllang=en_us
+" setlocal spell spelllang=uk
+
+let g:mapleader=","
+set number 
+set expandtab
+set tabstop=2 
+set hlsearch
+set incsearch 
+set spelllang=en_us
+set spelllang=uk_Ua
+
+" Spelling mistakes will also be colored red if you uncomment the colors.
+hi SpellBad cterm=underline ctermfg=203 "guifg=#ff5f5f
+hi SpellLocal cterm=underline ctermfg=203 "guifg=#ff5f5f
+hi SpellRare cterm=underline ctermfg=203 "guifg=#ff5f5f
+hi SpellCap cterm=underline ctermfg=203 "guifg=#ff5f5f
+
+
 " Vim5 and later versions support syntax highlighting. Uncommenting the next
 " line enables syntax highlighting by default.
 syntax on
@@ -28,21 +47,20 @@ syntax on
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
+
 call plug#begin('~/.vim/plugged')
 
 " Make sure you use single quotes
 
 " On-demand loading
+
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-
+Plug 'preservim/vim-lexical'
+Plug 'airblade/vim-gitgutter'
+Plug 'easymotion/vim-easymotion'
 " Initialize plugin system
-call plug#end()
 
-set number 
-set expandtab
-set tabstop=2 
-set hlsearch
-set incsearch 
+call plug#end()
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
@@ -68,7 +86,11 @@ set incsearch
 "set mouse=a		" Enable mouse usage (all modes)
 
 " mappings
+map <F5> :setlocal spell! spelllang=en_us<CR>
+map <F6> :setlocal spell! spelllang=uk<CR>
+
 map <C-n> :NERDTreeToggle<CR>
+map <Leader> <Plug>(easymotion-prefix)
 
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")

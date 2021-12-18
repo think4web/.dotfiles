@@ -39,7 +39,7 @@ set $wallpaper ~/.config/i3/wallpaper_x220.png
 
 # Choose a terminal.
 
-set $terminal xterm
+set $terminal kitty
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
