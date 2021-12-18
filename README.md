@@ -20,9 +20,9 @@
 
 ## TODO
 - [ ] Аdd zsh config for git
-- [ ] Аdd notification config
+- [x] Аdd dunst notification
 - [ ] Add dmenu config
-- [ ] Change xterm to st
+- [x] Change xterm to kitty
 - [ ] Chenge rofi to dmenu
 - [ ] Chenge i3-gaps to dwm
 - [ ] Make a general colore theme for sites (Stylus)
