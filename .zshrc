@@ -18,6 +18,7 @@ export SHELL=/usr/bin/zsh
 export NODE_PATH=$NODE_PATH:$HOME/.npm-global/lib/node_modules
 export JAVA_HOME=/usr/java/latest
 export PATH=$JAVA_HOME/bin:~/.npm-global/bin:$HOME/bin:/usr/local/bin:$HOME/.local/bin:$PATH
+export PATH=$PATH:~/.local/bin
 
 # Add exports from your profile
 source ~/.profile
