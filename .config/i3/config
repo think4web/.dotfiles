@@ -450,8 +450,9 @@ exec_always kbdd & setxkbmap -option 'grp:alt_shift_toggle' -layout us,ua &
 exec_always --no-startup-id feh --bg-scale $wallpaper &
 #exec_always --no-startup-id sxiv --bg-scale $wallpaper &
 
-#exec_always --no-startup-id google-drive-ocamlfuse -o nonempty ~/.Google\ Drive/ &
-exec_always --no-startup-id google-drive-ocamlfuse -o nonempty ~/.gdrive/ &
+exec_always --no-startup-id google-drive-ocamlfuse -o nonempty ~/.gcrypt/ &
+
+exec_always --no-startup-id gocryptfs -nonempty -q ~/.gcrypt/.crypt ~/.gdrive &
 
 #exec_always --no-startup-id mpd &
 
