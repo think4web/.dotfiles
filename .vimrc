@@ -23,21 +23,21 @@ runtime! debian.vim
 " setlocal spell spelllang=uk
 
 let g:mapleader=","
+let g:vimwiki_list = [{'path': '~/my_site/', 'syntax': 'markdown', 'ext': '.md'}] "Використовувати в vimwiki формат Markdown за замовчуванням
+let g:nv_search_paths = ['~/Documents/wiki']
+
+set nocompatible
 set number 
 set expandtab
-set tabstop=2 
+set tabstop=3 
 set hlsearch
 set incsearch 
 set spelllang=en_us
-set spelllang=uk_Ua
+set spell! spelllang=uk
 
 " Spelling mistakes will also be colored red if you uncomment the colors.
-hi SpellBad cterm=underline ctermfg=203 "guifg=#ff5f5f
-hi SpellLocal cterm=underline ctermfg=203 "guifg=#ff5f5f
-hi SpellRare cterm=underline ctermfg=203 "guifg=#ff5f5f
-hi SpellCap cterm=underline ctermfg=203 "guifg=#ff5f5f
-
-
+hi clear SpellBad
+hi SpellBad cterm=underline ctermfg=203 ctermbg=NONE  
 " Vim5 and later versions support syntax highlighting. Uncommenting the next
 " line enables syntax highlighting by default.
 syntax on
@@ -50,15 +50,13 @@ syntax on
 
 call plug#begin('~/.vim/plugged')
 
-" Make sure you use single quotes
-
-" On-demand loading
-
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'preservim/vim-lexical'
 Plug 'airblade/vim-gitgutter'
-Plug 'easymotion/vim-easymotion'
-" Initialize plugin system
+Plug 'vimwiki/vimwiki'
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
+Plug 'michal-h21/vim-zettel'
+Plug 'ap/vim-css-color'
 
 call plug#end()
 
@@ -72,7 +70,7 @@ call plug#end()
 
 " Uncomment the following to have Vim load indentation rules and plugins
 " according to the detected filetype.
-"filetype plugin indent on
+filetype plugin on
 
 " The following are commented out as they cause vim to behave a lot
 " differently from regular Vi. They are highly recommended though.
@@ -96,4 +94,3 @@ map <Leader> <Plug>(easymotion-prefix)
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
-
